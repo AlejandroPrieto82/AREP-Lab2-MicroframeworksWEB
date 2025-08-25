@@ -1,34 +1,56 @@
-# Gradle files
-.gradle/
-build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
+# =========================
+# Java / Maven
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
 *.log
+*.tmp
+*.bak
+*.swp
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
-
-# IntelliJ
+target/
+bin/
+out/
+.settings/
 *.iml
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+*.classpath
 
-# Keystore files
-*.jks
-*.keystore
+# Maven
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# =========================
+# Node / JavaScript
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
 
-# Android Profiling
-*.hprof
+# =========================
+# Visual Studio Code
+# =========================
+.vscode/
+
+# =========================
+# CSS / HTML / Otros recursos web
+# =========================
+*.css.map
+*.sass-cache/
+*.tmp
+*.cache
+
+# =========================
+# Sistema operativo
+# =========================
+.DS_Store
+Thumbs.db
